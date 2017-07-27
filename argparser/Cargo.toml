@@ -1,0 +1,12 @@
+[package]
+name = "argparser"
+version = "0.1.0"
+authors = ["bailaohe <bailaohe@gmail.com>"]
+
+[dependencies]
+clap = "*"
+
+clippy = {version = "*", optional = true}
+
+[features]
+default = []
