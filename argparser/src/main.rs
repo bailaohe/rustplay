@@ -6,6 +6,9 @@ extern crate clap;
 
 use clap::{App, Arg};
 
+#[cfg(foo)]
+struct Foo;
+
 fn main() {
     let matches = App::new("DemoApp")
         .long_version("1.0")

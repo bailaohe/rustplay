@@ -10,3 +10,6 @@ clippy = {version = "*", optional = true}
 
 [features]
 default = []
+# Add feature "foo" here, then you can use it. 
+# Our "foo" feature depends on nothing else.
+foo = []
